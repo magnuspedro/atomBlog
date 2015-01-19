@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=320px, user-scalable=no">
+        <script src="../../JS/jQuery.js"></script>
+        <script src="../../JS/jquery-ui.js"></script>
+        <link rel="stylesheet" type="text/css" href="../../CSS/createBlog.css" />
+        <script type="text/javascript" src="../../JS/createBlog.js"></script>
+        <link rel="stylesheet" type="text/css" href="../../CSS/blog.css" />
+        <script type="text/javascript" src="../../JS/blog.js"></script>
+        <title>Layout1</title>
+    </head>
+    <body>
+        <div class="edit fontawesome-edit"></div>
+        <a href="../crear_post/index.html" class="fontawesome-plus-sign-alt plus"></a>
+        <div id="toolbar">
+            <button class="fontawesome-bold" id="bold" onclick="makeBold()"></button>
+            <button class="fontawesome-italic" id="italic" onclick="makeItalic()"></button>
+            <button class="fontawesome-underline" id="underline" onclick="doUnderline()"></button>
+
+            <button class="fontawesome-align-left" onclick="justifyLeft()"></button>
+            <button class="fontawesome-align-center" onclick="justifyCenter()"></button>
+            <button class="fontawesome-align-right" onclick="justifyRight()"></button>
+            <button class="fontawesome-align-justify" id="justify"></button>
+
+            <button class="fontawesome-picture" onclick="doAddImage()"></button>
+            <!--<button class="fontawesome-font" id="fontName"></button>!-->
+            <button class="fontawesome-link" id="link"></button>
+            <button class="typicons-anchor " id="unlink"></button>
+            <!--<button class="fontawesome-chevron-up" id="fontUp"></button>
+            <button class="fontawesome-chevron-down" id="fontDown"></button>!-->
+            <input type="color" class="color" value="#404040"/>
+            <span id="counter"></span>
+            
+        </div>
+        <div class="container">
+            <article class="post">
+                <img class="imgPost" alt="Frist Post" src="http://howtowriteabusinessplan.com/wp-content/uploads/2012/10/wearepopup-logo.png"/>
+                <div class="content h1">First Post</div>
+                <div class="content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam ut sodales est. <a href="#" target="_blank">Donec congue</a> tristique ipsum id rutrum. Praesent mattis accumsan purus eu tristique. Praesent vel volutpat odio. Nullam dictum congue vehicula. Nunc sit amet blandit magna, at ultrices lorem.
+                </div>
+            </article>
+        </div>
+    </body>
+</html>

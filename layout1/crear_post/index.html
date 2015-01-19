@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=320px, user-scalable=no">
+        <script src="../../JS/jQuery.js"></script>
+        <script src="../../JS/jquery-ui.js"></script>
+        <link rel="stylesheet" type="text/css" href="../../CSS/create.css" />
+        <script type="text/javascript" src="../../JS/create.js"></script>
+        <title>Create Post</title>
+    </head>
+    <body>
+        <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+        <div id="toolbar">
+            <button class="fontawesome-bold" id="bold" onclick="makeBold()"></button>
+            <button class="fontawesome-italic" id="italic" onclick="makeItalic()"></button>
+            <button class="fontawesome-underline" id="underline" onclick="doUnderline()"></button>
+
+            <button class="fontawesome-align-left" onclick="justifyLeft()"></button>
+            <button class="fontawesome-align-center" onclick="justifyCenter()"></button>
+            <button class="fontawesome-align-right" onclick="justifyRight()"></button>
+            <button class="fontawesome-align-justify" id="justify"></button>
+
+            <button class="fontawesome-picture" onclick="doAddImage()"></button>
+            <!--<button class="fontawesome-font" id="fontName"></button>!-->
+            <button class="fontawesome-link" id="link"></button>
+            <button class="typicons-anchor " id="unlink"></button>
+            <!--<button class="fontawesome-chevron-up" id="fontUp"></button>
+            <button class="fontawesome-chevron-down" id="fontDown"></button>!-->
+            <input type="color" class="color" value="#000"/>
+        </div>
+        <div class="imgprin"></div>
+        <form class="form">
+            <div class="h1 title content">Titulo</div>
+            <div class="div content" id="div"></div>
+            <div class='error' style='display:none'></div>
+            <input type="submit" id="publicar" value="Publicar"/>
+        </form>
+    </body>
+</html>
