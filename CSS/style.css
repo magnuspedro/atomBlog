@@ -1,21 +1,22 @@
 @import url(http://fonts.googleapis.com/css?family=Montserrat);
-a:link{
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+ a:link {
 	color: #1987D1;
 	text-decoration: none;
 }
-a:hover{
+a:hover {
 	color: #1987D1;
 	text-decoration: underline;
 }
-a:active{
+a:active {
 	color: #1987D1;
 	text-decoration: none;
 }
-a:visited{
+a:visited {
 	color: #1987D1;
 	text-decoration: none;
 }
-section{
+section {
 	position: absolute;
 	left: 0px;
 	top: 0px;
@@ -23,32 +24,32 @@ section{
 	width: 450px;
 	height: calc(100% - 2px);
 }
-.a_img{
+.a_img {
 	position: relative;
 	top: 100px;
 	left: calc(50% - 80px);
 	height: 160px;
 	border-radius: 50%;
 }
-.img{
+.img {
 	height: 160px;
 	border-radius: 50%;
 	border: 1px solid #EEE;
 }
-.name{
-	position:relative;
+.name {
+	position: relative;
 	top: 120px;
 	font-family: 'Montserrat', sans-serif;
 	font-size: 26px;
 	text-align: center
 }
-.status{
+.status {
 	position: relative;
 	top: 160px;
 	font-family: 'Montserrat', sans-serif;
 	text-align: center;
 }
-.blog_things{
+.blog_things {
 	position: relative;
 	top: 270px;
 	left: 30px;
@@ -57,11 +58,33 @@ section{
 	font-family: 'Montserrat', sans-serif;
 	font-size: 25px;
 }
-#iframe{
+#iframe {
 	position: absolute;
 	top: 0px;
 	left: 455px;
-	height: calc(100% - 2px);
+	height: calc(100% - 35px);
 	width: calc(100% - 460px);
 	border: none;
+	overflow: none;
+}
+footer {
+	position: absolute;
+	bottom: 10px;
+	left: 495px;
+	font-family: 'Open Sans', sans-serif;
+	color: #888;
+}
+@media screen and (max-width: 840px) {
+	section {
+		width: 210px;
+	}
+	#iframe {
+		left: 220px;
+		height: calc(100% - 55px);
+		width: calc(100% - 220px);
+		overflow: none;
+	}
+	footer {
+		left: 220px;
+	}
 }

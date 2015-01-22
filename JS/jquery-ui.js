@@ -7897,9 +7897,9 @@ function datepicker_getZindex( elem ) {
 	return 0;
 }
 /* Date picker manager.
-   Use the singleton instance of this class, $.datepicker, to interact with the date picker.
-   Settings for (groups of) date pickers are maintained in an instance object,
-   allowing multiple different settings on the same page. */
+	Use the singleton instance of this class, $.datepicker, to interact with the date picker.
+	Settings for (groups of) date pickers are maintained in an instance object,
+	allowing multiple different settings on the same page. */
 
 function Datepicker() {
 	this._curInst = null; // The current instance in use
@@ -9879,9 +9879,9 @@ function datepicker_extendRemove(target, props) {
 }
 
 /* Invoke the datepicker functionality.
-   @param  options  string - a command, optionally followed by additional parameters or
+	@param  options  string - a command, optionally followed by additional parameters or
 					Object - settings for attaching new datepicker functionality
-   @return  jQuery object */
+	@return  jQuery object */
 $.fn.datepicker = function(options){
 
 	/* Verify an empty collection wasn't passed - Fixes #6976 */

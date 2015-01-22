@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 @import url(http://fonts.googleapis.com/css?family=Montserrat);
 .atividade{
 	font-family: 'Montserrat', sans-serif;
@@ -46,74 +45,3 @@
 	margin-right: 10px;
 	border-radius: 10px;
 }
-=======
-@import url(http://fonts.googleapis.com/css?family=PT+Serif);
-body {
-  color: #404040;
-  font-family: PT Serif, serif;
-  font-size: 20px;
-  text-align: justify;
-}
-a {
-  color: steelblue;
-  text-decoration: none;
-}
-a:hover,
-a:active {
-  text-decoration: underline;
-}
-.h1{
-    font-size: 2em;
-    font-family: Open Sans, sans-serif;
-    font-weight: bold;
-    text-align: left;
-}
-.container {
-  margin: 0 auto;
-  max-width: 640px;
-}
-.post{
-    position: relative;
-    margin: 4rem auto;
-    padding-bottom: 4rem;
-    border-bottom: #888 1px solid;
-}
-.imgPost{
-    width: 100%;
-    height: 250px;
-}
-.plus, .plus:hover, .puls:active{
-    position: fixed;
-    top: 0px;
-    right: 30px;
-    z-index: 99;
-    font-size: 30px;
-    text-decoration: none;
-    color: #404040;
-}
-.edit{
-    position: fixed;
-    top: 0px;
-    right: 65px;
-    font-size: 30px;
-    cursor: pointer;
-}
-
-/* Add little circle in the middle after each post */
-.post:after {
-    display: block;
-    content: "";
-    width: 7px;
-    height: 7px;
-    border: #888 1px solid;
-    position: absolute;
-    bottom: -5px;
-    left: 50%;
-    margin-left: -5px;
-    background: #fdffea;
-    -webkit-border-radius: 100%;
-    -moz-border-radius: 100%;
-    border-radius: 100%;
-    box-shadow: transparent 0 0 0 10px;
-}
->>>>>>> 136b3af8d8abf543a66a314bc0fdd37cfbd7d455
